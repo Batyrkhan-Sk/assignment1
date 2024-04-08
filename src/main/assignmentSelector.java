@@ -32,7 +32,6 @@ public class assignmentSelector {
         try {
             Class<?> taskClass = Class.forName(taskClassName);
             Method mainMethod = taskClass.getMethod("main", String[].class);
-            // Provide any required command-line arguments here
             String[] arguments = {};
             mainMethod.invoke(null, (Object) arguments);
         } catch (Exception e) {
