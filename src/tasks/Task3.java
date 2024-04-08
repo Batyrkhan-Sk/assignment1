@@ -1,9 +1,6 @@
 package tasks;
 
 public class Task3 {
-    public Task3() {
-    }
-
     public static boolean isPrime(int n) {
         if (n < 2) {
             return false;
