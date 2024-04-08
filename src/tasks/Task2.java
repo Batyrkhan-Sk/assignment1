@@ -6,8 +6,8 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
+        int n = 4;
         int[] elements = new int[]{3, 2, 4, 1};
-        int n = elements.length;
         double startTime = System.nanoTime();
         double avg = arrayAverage(elements, n);
         double endTime = System.nanoTime();

@@ -16,12 +16,12 @@ public class Task3 {
     }
 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 10;
         double startTime = System.nanoTime();
         if (isPrime(n)) {
             System.out.println(n + " is prime");
         } else {
-            System.out.println(n + " is not prime");
+            System.out.println(n + " is composite");
         }
         double endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1000000;

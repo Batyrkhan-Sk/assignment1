@@ -6,8 +6,8 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{15, 60, 1, 0, 2};
-        int n = arr.length;
+        int n = 5;
+        int[] arr = new int[]{10, 1, 32, 3, 45};
         double startTime = System.nanoTime();
         int result = findMinimum(arr, n);
         double endTime = System.nanoTime();
