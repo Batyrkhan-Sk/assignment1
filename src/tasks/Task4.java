@@ -9,16 +9,15 @@ public class Task4 {
             return n * factorial(n-1);
         }
     }
-
+    public static int factorial(){
+        return factorial(5);
+    }
     public static void main(String[] args) {
         double startTime = System.nanoTime();
         int result = factorial();
         double endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1000000;
-        System.out.println("Factorial of 7 is: " + result);
+        System.out.println("Factorial of 5 is: " + result);
         System.out.println("Time taken: " + duration + " milliseconds");
-    }
-    public static int factorial(){
-        return factorial(7);
     }
 }
