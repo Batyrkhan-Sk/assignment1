@@ -12,6 +12,7 @@ The solution involves an iterative approach. We initialize the minimum value as 
 Write a function that returns the average of elements in an array.
 
 **Solution Overview**
+This method computes the average of elements in an array using a simple iterative approach. It iterates through the array, summing up all the elements, and then divides the total sum by the number of elements to obtain the average.
 
 ### Task 3: Prime Number Check Using Recursion
 
