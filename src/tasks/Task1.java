@@ -1,8 +1,23 @@
 package tasks;
 
 public class Task1 {
+    /**
+     * This method finds the minimum element in an array
+     * It uses iterative approach
+     * Time complexity: O(n)
+     * @param arr the input array
+     * @param n the number of elements in the array
+     * @return the minimum element in the array
+     */
     public static int findMinimum(int[] arr, int n) {
-        return n == 1 ? arr[0] : Math.min(arr[n - 1], findMinimum(arr, n - 1));
+        int min = arr[0];
+        for (int i = 1; i < n; i++) {
+            // If the current element is smaller than the current minimum, update the minimum
+            if (min > arr[i]) {
+                min = arr[i];
+            }
+        }
+        return min;
     }
 
     public static void main(String[] args) {
